@@ -10,6 +10,7 @@
           if (!document.getElementById('alert')){
             contentField.parentNode.insertBefore(element, contentField);
             element.appendChild(message);
+            element.classList.add("alert_color");
             emailComfirmField.classList.add("alert_bg");
           }    
       } else {
